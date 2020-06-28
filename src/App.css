@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Avenir Next";
+  src: url(./Font/AvenirNextLTPro-Regular.otf) format("otf"),
+  }
+@keyframes blink {
+  from {
+    color: #ffd700;
+  }
+  to {
+    color: #282a36;
+  }
+}
+*{
+  font-family: "Avenir Next";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+    body{
+      overflow-x: hidden;
+    }
+h1 {
+  font-size: 40px;
+  padding: 0 10px;
+  font-weight: 500;
+  color: #282a36;
+  letter-spacing: -2px;
+}
+.yellowify {
+  color: #ffd700;
+}
+.pinkify {
+  color: #ff79c6;
+}
+.darkify {
+  color: #282a36;
+}
+.greyfy {
+  color: #8d8d8d;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118.413" height="118.318" viewBox="0 0 118.413 118.318">
+  <g id="Slack_logo" transform="translate(0)">
+    <g id="Groupe_18" data-name="Groupe 18" transform="translate(0 0)">
+      <g id="Groupe_14" data-name="Groupe 14" transform="translate(0.094 62.362)">
+        <path id="Tracé_57" data-name="Tracé 57" d="M87.669,141.235A12.435,12.435,0,1,1,75.235,128.8H87.669Z" transform="translate(-62.8 -128.8)" fill="#e01e5a"/>
+        <path id="Tracé_58" data-name="Tracé 58" d="M95.8,141.235a12.435,12.435,0,0,1,24.869,0v31.087a12.435,12.435,0,0,1-24.869,0Z" transform="translate(-64.713 -128.8)" fill="#e01e5a"/>
+      </g>
+      <g id="Groupe_15" data-name="Groupe 15">
+        <path id="Tracé_59" data-name="Tracé 59" d="M108.235,87.469a12.435,12.435,0,1,1,12.435-12.435V87.469Z" transform="translate(-64.619 -62.6)" fill="#36c5f0"/>
+        <path id="Tracé_60" data-name="Tracé 60" d="M106.316,95.7a12.435,12.435,0,1,1,0,24.869H75.135a12.435,12.435,0,0,1,0-24.869Z" transform="translate(-62.7 -64.519)" fill="#36c5f0"/>
+      </g>
+      <g id="Groupe_16" data-name="Groupe 16" transform="translate(62.362)">
+        <path id="Tracé_61" data-name="Tracé 61" d="M161.9,108.135a12.435,12.435,0,1,1,12.435,12.435H161.9Z" transform="translate(-130.813 -64.519)" fill="#2eb67d"/>
+        <path id="Tracé_62" data-name="Tracé 62" d="M153.769,106.216a12.435,12.435,0,1,1-24.869,0V75.035a12.435,12.435,0,1,1,24.869,0Z" transform="translate(-128.9 -62.6)" fill="#2eb67d"/>
+      </g>
+      <g id="Groupe_17" data-name="Groupe 17" transform="translate(62.362 62.362)">
+        <path id="Tracé_63" data-name="Tracé 63" d="M141.335,161.8A12.435,12.435,0,1,1,128.9,174.235V161.8Z" transform="translate(-128.9 -130.713)" fill="#ecb22e"/>
+        <path id="Tracé_64" data-name="Tracé 64" d="M141.335,153.669a12.435,12.435,0,0,1,0-24.87h31.181a12.435,12.435,0,1,1,0,24.87Z" transform="translate(-128.9 -128.8)" fill="#ecb22e"/>
+      </g>
+    </g>
+  </g>
+</svg>

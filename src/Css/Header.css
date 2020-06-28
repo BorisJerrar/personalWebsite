@@ -1,0 +1,98 @@
+.tagline {
+  position: relative;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282a36;
+    box-shadow: inset 0px -15px 9px rgba(0, 0, 0, 0.137);
+  }
+  .taglineContent {
+    flex-wrap: wrap;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .taglineContent h2 {
+    font-weight: 500;
+    font-size: 75px;
+    letter-spacing: -4px;
+    color: #fff;
+  }
+  .taglineContent p:first-child {
+    align-self: flex-start;
+    color: #8d8d8d;
+    font-size: 20px;
+    letter-spacing: -2px;
+  }
+  .taglineContent p:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    font-size: 20px;
+    letter-spacing: -2px;
+    color: #8d8d8d;
+    font-weight: 600;
+    height: 26px;
+  }
+  .blinky {
+    animation: blink 0.5s infinite ease-in-out;
+    padding-left: 10px;
+    height: 26px;
+    font-weight: bolder;
+  }
+  .introduction {
+    background-color: #efefef;
+    padding: 70px 0px 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .introductionContent {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .introductionContent img {
+    width: 35%;
+    box-sizing: 0px 3px 6px rgba(0, 0, 0, 0.205);
+  }
+  .introductionContentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 33%;
+    text-align: justify;
+    height: 300px;
+  }
+  .introductionContentText h4 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .collapseTexte {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+    height: 200px;
+  }
+  .collapseTexte a {
+    text-decoration: none;
+    transition: ease-in-out 0.3s all;
+  }
+  .collapseTexte a:hover {
+    color: #ad5286;
+  }
+  header{
+    position: relative;
+    box-shadow: 0px 15px 9px rgba(0, 0, 0, 0.137);
+    z-index: 2;
+  }

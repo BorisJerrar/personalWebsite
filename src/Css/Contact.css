@@ -1,0 +1,107 @@
+.contact {
+    padding: 60px 0px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact h3 {
+    align-self: flex-start;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    padding: 0px 30px 60px 30px;
+  }
+  .contact form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 550px;
+  }
+  .packingForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .packingForm label{
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+    width: 10%;
+    background-color: #ff79c6;
+  }
+  .packingForm input {
+    color: #282a36;
+    padding-left: 20px;
+    width: 70%;
+    height: 60px;
+    border: none;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.452);
+    transition: ease-in-out all 0.2s;
+  }
+  .packingForm input:focus {
+    color: #282a36;
+    padding-left: 20px;
+    width: 70%;
+    height: 60px;
+    border: none;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.452);
+    transition: ease-in-out all 0.2s;
+  }
+  .packingFormTextarea textarea {
+    color: #282a36;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 100%;
+    resize: none;
+    height: 200px;
+    border: none;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.233);
+  }
+  .packingFormTextarea textarea:focus {
+    border: none;
+  }
+  .packingFormTextarea {
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .packingFormTextarea button {
+    cursor: pointer;
+    align-self: flex-end;
+    width: 15%;
+    height: 60px;
+    background-color: #ff79c6;
+    border: none;
+    color: #ffffff;
+    transition: transform .2s ease-in ;
+  }
+  .fixedEmailSend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: fixed;
+top: 00px;
+left: 0;
+right: 0;
+margin: auto;
+width: 20%;
+background-color: #ff79c6;
+color: #fff;
+padding: 20px;
+border-radius: 3px;
+transition: opacity .2s linear;
+  }

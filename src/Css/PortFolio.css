@@ -1,0 +1,25 @@
+.containerFolio {
+  position: relative;
+  z-index: 200;
+    padding: 60px 0px 0px 0px;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+.containerFolio h3 {
+    align-self: flex-start;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    padding: 0px 30px 60px 30px;
+  }
+.warpperFolio
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}

@@ -1,0 +1,45 @@
+.languageContent {
+  position: relative;
+  width: calc(100vw / 17);
+  height: calc(100vw / 17);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  color: rgb(160, 160, 160);
+  text-align: justify;
+  padding: 0px;
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.329));
+  transition: transform .2s ease-in, filter .2s ease-in ;
+}
+.languageContent::after {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+  height: 3px;
+  margin: auto;
+  background-color: rgba(255, 121, 197, 0);
+  transition: ease-in-out 0.3s background-color;
+}
+
+.languageContent:hover {
+  transform: scale(1.2,1.2);
+  filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.534));
+}
+
+.languageContent img {
+  z-index: 2;
+  height: 70%;
+}
+.textContent {
+  padding: 15px;
+  width: 100%;
+}
+.title {
+  font-size: 30px;
+  font-weight: 500;
+}
